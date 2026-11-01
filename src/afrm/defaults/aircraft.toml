@@ -1,0 +1,51 @@
+# simulated aircraft classes. 
+# Round figures, not certified data.
+# Masses kg, 
+# speed kt, 
+# distance NM, 
+# TSFC per hour.
+
+[GRJ]
+description = "Generic regional jet"
+oew_kg = 28000
+mzfw_kg = 40900
+mtow_kg = 51800
+mlw_kg = 43000
+fuel_capacity_kg = 13000
+cruise_tas_kt = 440
+cruise_ld = 15.5
+cruise_tsfc_per_h = 0.64
+hold_ld = 16.5
+hold_tsfc_per_h = 0.58
+taxi_fuel_kg = 180
+climb_allowance_nm = 80
+
+[GNB]
+description = "Generic narrow-body jet"
+oew_kg = 42000
+mzfw_kg = 62500
+mtow_kg = 79000
+mlw_kg = 67400
+fuel_capacity_kg = 19000
+cruise_tas_kt = 450
+cruise_ld = 17.0
+cruise_tsfc_per_h = 0.60
+hold_ld = 18.0
+hold_tsfc_per_h = 0.55
+taxi_fuel_kg = 250
+climb_allowance_nm = 100
+
+[GWB]
+description = "Generic wide-body jet"
+oew_kg = 135000
+mzfw_kg = 195000
+mtow_kg = 254000
+mlw_kg = 205000
+fuel_capacity_kg = 110000
+cruise_tas_kt = 490
+cruise_ld = 19.0
+cruise_tsfc_per_h = 0.56
+hold_ld = 20.0
+hold_tsfc_per_h = 0.52
+taxi_fuel_kg = 600
+climb_allowance_nm = 130
