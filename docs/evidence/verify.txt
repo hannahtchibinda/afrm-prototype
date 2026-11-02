@@ -12,7 +12,7 @@ Python 3.14.10 on Windows-11-10.0.26200-SP0
 All checks passed!
 
 === Format (ruff): PASS ===
-19 files already formatted
+23 files already formatted
 
 === Types (mypy --strict): PASS ===
 Success: no issues found in 11 source files
@@ -23,8 +23,8 @@ Success: no issues found in 11 source files
 No known vulnerabilities found
 
 === Tests + coverage (dev mode): PASS ===
-........................................................................ [ 94%]
-....                                                                     [100%]
+........................................................................ [ 79%]
+...................                                                      [100%]
 =============================== tests coverage ================================
 ______________ coverage: platform win32, python 3.14.10-final-0 _______________
 
@@ -39,12 +39,12 @@ src\afrm\models.py          129      1     10      1    99%   48
 src\afrm\monitoring.py       83      0     22      0   100%
 src\afrm\performance.py      24      0      6      0   100%
 src\afrm\pipeline.py         22      0      8      0   100%
-src\afrm\planning.py         49      2     10      2    93%   97, 105
+src\afrm\planning.py         49      0     10      0   100%
 src\afrm\simulation.py      106      0     24      1    99%   174->exit
 ---------------------------------------------------------------------
-TOTAL                       635      6    120      9    98%
-Required test coverage of 90.0% reached. Total coverage: 98.01%
-76 passed in 1.17s
+TOTAL                       635      4    120      7    99%
+Required test coverage of 90.0% reached. Total coverage: 98.54%
+91 passed in 1.85s
 
 === Wheel build: PASS ===
 Successfully built afrm-0.1.0-py3-none-any.whl
