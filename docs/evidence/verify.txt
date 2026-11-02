@@ -44,7 +44,7 @@ src\afrm\simulation.py      106      0     24      1    99%   174->exit
 ---------------------------------------------------------------------
 TOTAL                       635      6    120      9    98%
 Required test coverage of 90.0% reached. Total coverage: 98.01%
-76 passed in 1.53s
+76 passed in 1.17s
 
 === Wheel build: PASS ===
 Successfully built afrm-0.1.0-py3-none-any.whl
