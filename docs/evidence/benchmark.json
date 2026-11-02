@@ -1,0 +1,55 @@
+{
+ "python": "3.14.10",
+ "platform": "Windows-11-10.0.26200-SP0",
+ "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+ "repeats": 5,
+ "eager_peak_mib_10000": 28.505008697509766,
+ "streaming_peak_mib_10000": 11.802441596984863,
+ "runtime_modes_10000": {
+  "default": {
+   "wall_s_median": 0.6439094999805093,
+   "cpu_s_median": 0.65625,
+   "cpu_s_stdev": 0.01307281291459493
+  },
+  "dev_mode (-X dev)": {
+   "wall_s_median": 0.7219012998975813,
+   "cpu_s_median": 0.703125,
+   "cpu_s_stdev": 0.01307281291459493
+  },
+  "optimised (-O)": {
+   "wall_s_median": 0.6302680997177958,
+   "cpu_s_median": 0.625,
+   "cpu_s_stdev": 0.011048543456039806
+  }
+ },
+ "scaling": {
+  "1000": {
+   "wall_s_median": 0.06737730000168085,
+   "cpu_s_median": 0.078125,
+   "cpu_s_stdev": 0.00855816496101822,
+   "peak_mib": 1.2956838607788086,
+   "telemetry_mib": 0.35134220123291016,
+   "us_per_flight": 78.125
+  },
+  "10000": {
+   "wall_s_median": 0.6439094999805093,
+   "cpu_s_median": 0.65625,
+   "cpu_s_stdev": 0.01307281291459493,
+   "peak_mib": 11.802441596984863,
+   "telemetry_mib": 3.4585371017456055,
+   "us_per_flight": 65.625
+  },
+  "50000": {
+   "wall_s_median": 3.123013500124216,
+   "cpu_s_median": 3.015625,
+   "cpu_s_stdev": 0.06592194721790308,
+   "peak_mib": 58.5205602645874,
+   "telemetry_mib": 17.36911678314209,
+   "us_per_flight": 60.3125
+  }
+ },
+ "bytes_per_record": {
+  "checkpoint_with_slots": 215.90616,
+  "without_slots": 255.89672
+ }
+}

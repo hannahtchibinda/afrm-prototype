@@ -1,0 +1,100 @@
+{
+ "flights": 10000,
+ "scenarios": {
+  "FUEL_LEAK": {
+   "any_alert": 966,
+   "any_discrepancy": 966,
+   "any_rejected_reading": 0,
+   "dispatch_GO": 967,
+   "flights": 967,
+   "worst_CAUTION": 332,
+   "worst_EMERGENCY": 78,
+   "worst_MINIMUM_FUEL": 64,
+   "worst_NORMAL": 493
+  },
+  "GAUGE_HIGH": {
+   "any_alert": 37,
+   "any_discrepancy": 36,
+   "any_rejected_reading": 627,
+   "dispatch_GO": 627,
+   "flights": 627,
+   "worst_CAUTION": 2,
+   "worst_NORMAL": 625
+  },
+  "GAUGE_LOW": {
+   "any_alert": 397,
+   "any_discrepancy": 397,
+   "any_rejected_reading": 397,
+   "dispatch_GO": 397,
+   "flights": 397,
+   "worst_CAUTION": 7,
+   "worst_EMERGENCY": 375,
+   "worst_MINIMUM_FUEL": 15
+  },
+  "HEADWIND": {
+   "any_alert": 1012,
+   "any_discrepancy": 270,
+   "any_rejected_reading": 21,
+   "dispatch_GO": 1184,
+   "flights": 1184,
+   "worst_CAUTION": 487,
+   "worst_EMERGENCY": 343,
+   "worst_MINIMUM_FUEL": 162,
+   "worst_NORMAL": 192
+  },
+  "LOW_FUEL_DISPATCH": {
+   "any_alert": 495,
+   "any_discrepancy": 54,
+   "any_rejected_reading": 2,
+   "dispatch_NO_GO": 582,
+   "flights": 582,
+   "worst_CAUTION": 328,
+   "worst_EMERGENCY": 77,
+   "worst_MINIMUM_FUEL": 90,
+   "worst_NORMAL": 87
+  },
+  "MARGINAL_DISPATCH": {
+   "any_alert": 106,
+   "any_discrepancy": 44,
+   "any_rejected_reading": 1,
+   "dispatch_MARGINAL": 592,
+   "flights": 592,
+   "worst_CAUTION": 74,
+   "worst_EMERGENCY": 5,
+   "worst_MINIMUM_FUEL": 11,
+   "worst_NORMAL": 502
+  },
+  "NOMINAL": {
+   "any_alert": 435,
+   "any_discrepancy": 433,
+   "any_rejected_reading": 7,
+   "dispatch_GO": 4648,
+   "flights": 4648,
+   "worst_CAUTION": 25,
+   "worst_NORMAL": 4623
+  },
+  "OVERWEIGHT": {
+   "any_alert": 296,
+   "any_discrepancy": 56,
+   "any_rejected_reading": 5,
+   "dispatch_NO_GO": 389,
+   "flights": 389,
+   "worst_CAUTION": 164,
+   "worst_EMERGENCY": 73,
+   "worst_MINIMUM_FUEL": 56,
+   "worst_NORMAL": 96
+  },
+  "SEVERE_LEAK": {
+   "any_alert": 614,
+   "any_discrepancy": 614,
+   "any_rejected_reading": 0,
+   "dispatch_GO": 614,
+   "flights": 614,
+   "worst_CAUTION": 111,
+   "worst_EMERGENCY": 433,
+   "worst_MINIMUM_FUEL": 62,
+   "worst_NORMAL": 8
+  }
+ },
+ "seed": 60221
+}
