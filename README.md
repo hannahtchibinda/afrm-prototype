@@ -4,7 +4,7 @@ Plans the amount of fuel a flight needs, assesses whether the flight can go ahea
 and then monitors its fuel and range against defined criteria as telemetry arrives.
 
 > **Not for operational use.** All flight data is simulated, and calculations are simplified in context.
->  every assumption is located at [docs/criteria.md](docs/criteria.md) .
+>  Every assumption is located at [docs/criteria.md](docs/criteria.md) .
 
 ## Requirements
 
