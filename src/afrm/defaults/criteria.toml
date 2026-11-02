@@ -16,5 +16,5 @@ burn_window_segments = 3       #  Recent segments used to estimate burn.
 burn_min_segments = 2          # with fewer than this, trust the model.
 discrepancy_ratio = 1.08       # burn 8 % above model raises a flag.
 noise_band_fraction = 0.005    # excess within 0.5 % of capacity is treated as gauge noise.
-fob_high_tolerance_fraction = 0.005  # A reading this far above prediction is rejected.
+fob_high_tolerance_fraction = 0.02  # A reading this far above prediction is rejected.
 invalid_escalation_count = 2   # Bad readings in a row that force at least CAUTION.
