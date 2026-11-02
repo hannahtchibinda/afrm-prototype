@@ -1,0 +1,61 @@
+PASS  Lint (ruff)
+PASS  Format (ruff)
+PASS  Types (mypy --strict)
+PASS  Security lint (bandit)
+PASS  Dependency audit (pip-audit)
+PASS  Tests + coverage (dev mode)
+PASS  Wheel build
+PASS  Data reproducibility
+Python 3.14.10 on Windows-11-10.0.26200-SP0
+
+=== Lint (ruff): PASS ===
+All checks passed!
+
+=== Format (ruff): PASS ===
+19 files already formatted
+
+=== Types (mypy --strict): PASS ===
+Success: no issues found in 11 source files
+
+=== Security lint (bandit): PASS ===
+
+=== Dependency audit (pip-audit): PASS ===
+No known vulnerabilities found
+
+=== Tests + coverage (dev mode): PASS ===
+........................................................................ [ 94%]
+....                                                                     [100%]
+=============================== tests coverage ================================
+______________ coverage: platform win32, python 3.14.10-final-0 _______________
+
+Name                      Stmts   Miss Branch BrPart  Cover   Missing
+---------------------------------------------------------------------
+src\afrm\__init__.py          1      0      0      0   100%
+src\afrm\cli.py              93      1     16      4    95%   82->84, 87->90, 93->95, 133
+src\afrm\config.py           43      0     10      0   100%
+src\afrm\dataio.py           82      2     14      1    97%   45, 119
+src\afrm\errors.py            3      0      0      0   100%
+src\afrm\models.py          129      1     10      1    99%   48
+src\afrm\monitoring.py       83      0     22      0   100%
+src\afrm\performance.py      24      0      6      0   100%
+src\afrm\pipeline.py         22      0      8      0   100%
+src\afrm\planning.py         49      2     10      2    93%   97, 105
+src\afrm\simulation.py      106      0     24      1    99%   174->exit
+---------------------------------------------------------------------
+TOTAL                       635      6    120      9    98%
+Required test coverage of 90.0% reached. Total coverage: 98.01%
+76 passed in 1.53s
+
+=== Wheel build: PASS ===
+Successfully built afrm-0.1.0-py3-none-any.whl
+* Creating isolated environment: venv+pip...
+* Installing packages in isolated environment:
+  - hatchling==1.27.0
+* Getting build dependencies for wheel...
+* Installed build dependency versions:
+  - hatchling==1.27.0
+* Building wheel...
+
+=== Data reproducibility: PASS ===
+flights.json matches: True
+telemetry.csv matches: True
